@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import AjouterSeries from "./AjouterSeries";
 
 const API = process.env.REACT_APP_API_URL;
+console.log("API URL utilisée :", API);
+
 
 
 function Series() {
