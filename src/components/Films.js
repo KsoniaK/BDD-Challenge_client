@@ -7,14 +7,14 @@ function Films() {
   const [date, setDate] = useState("");
 
   useEffect(() => {
-    fetch("https://bdd-challenge-server.onrender.com/medias/films")
+    fetch(`${API}/read/genre/films`)
       .then((res) => res.json())
       .then((data) => setFilms(data))
       .catch((err) => console.error("Erreur fetch films :", err));
   }, []);
 
   const ajouterFilm = () => {
-    fetch("https://bdd-challenge-server.onrender.com/medias/films", {
+    fetch(`${API}/read/genre/films`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -63,7 +63,7 @@ function Films() {
             <img
               src={
                 film.image_media.startsWith("/images")
-                  ? "https://bdd-challenge-server.onrender.com" + film.image_media
+                  ? `${API}` + film.image_media
                   : film.image_media
               }
               alt={film.titre_media}

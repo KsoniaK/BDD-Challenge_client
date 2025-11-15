@@ -7,7 +7,7 @@ function Series() {
 
   // Charger la liste des séries au montage
   useEffect(() => {
-    fetch("https://bdd-challenge-server.onrender.com/medias/series")
+    fetch(`${API}/read/genre/series`)
       .then((res) => res.json())
       .then((data) => {
         // console.log("Séries reçues :", data);
@@ -18,7 +18,7 @@ function Series() {
 
   // Fonction pour ajouter une série
   const ajouterSerie = (titre, image, date) => {
-    fetch("https://bdd-challenge-server.onrender.com/medias/series", {
+    fetch(`${API}/read/genre/series`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -33,7 +33,7 @@ function Series() {
         console.log("Série ajoutée :", data);
 
         // Recharger la liste des séries après ajout
-        return fetch("https://bdd-challenge-server.onrender.com/medias/series");
+        return fetch(`${API}/read/genre/series`);
       })
       .then((res) => res.json())
       .then((data) => setSeries(data))
@@ -54,7 +54,7 @@ function Series() {
             <img
               src={
                 serie.image_media.startsWith("/images")
-                  ? "https://bdd-challenge-server.onrender.com" + serie.image_media
+                  ? `${API}` + serie.image_media
                   : serie.image_media
               }
               alt={serie.titre_media}
