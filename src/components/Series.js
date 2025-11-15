@@ -2,6 +2,9 @@
 import React, { useEffect, useState } from "react";
 import AjouterSeries from "./AjouterSeries";
 
+const API = process.env.REACT_APP_API_URL;
+
+
 function Series() {
   const [series, setSeries] = useState([]);
 
