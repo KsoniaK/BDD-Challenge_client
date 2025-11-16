@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "76f13f7628166860b0eb8f0c56ca379a",
+    "revision": "035d2b203f62232136f840625d7cf7c0",
     "url": "/BDD-Challenge_client/index.html"
   },
   {
-    "revision": "aa40936b606284c95404",
+    "revision": "4fe02e9dc7c9f40d1ec6",
     "url": "/BDD-Challenge_client/static/css/main.2934dbcf.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BDD-Challenge_client/static/js/2.c96f46b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa40936b606284c95404",
-    "url": "/BDD-Challenge_client/static/js/main.03884af4.chunk.js"
+    "revision": "4fe02e9dc7c9f40d1ec6",
+    "url": "/BDD-Challenge_client/static/js/main.5e0d686b.chunk.js"
   },
   {
     "revision": "d50b761f378c164b5231",
