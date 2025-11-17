@@ -58,9 +58,9 @@ function Series() {
           <div key={serie.id_media} style={{ margin: "10px" }}>
             <img
               src={
-                serie.image_media.startsWith("/images")
-                  ? `${API}` + serie.image_media
-                  : serie.image_media
+                serie.image_media && serie.image_media.startsWith("/images")
+                  ? `${API}${serie.image_media}`
+                  : serie.image_media || "https://placehold.co/120x180?text=No+Image"
               }
               alt={serie.titre_media}
               width="120"
