@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// Avec lui , si je souhaite rafraîchir la page directement sur les "pages" série ou film, je ne reçois pas l'erreur 404
 import { HashRouter } from "react-router-dom";
 import './index.css';
 import App from './App';
