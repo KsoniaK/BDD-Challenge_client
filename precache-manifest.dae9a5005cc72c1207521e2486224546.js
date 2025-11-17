@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54a76eed7f399d8e188e8a7f2ffe46f1",
+    "revision": "82686cf7745483336d86d95f7838c16e",
     "url": "/BDD-Challenge_client/index.html"
   },
   {
-    "revision": "77b4ff5f3f3b5893f710",
+    "revision": "fa2508815948fbea1857",
     "url": "/BDD-Challenge_client/static/css/main.2934dbcf.chunk.css"
   },
   {
-    "revision": "be07028050a9b98db15a",
-    "url": "/BDD-Challenge_client/static/js/2.2355c608.chunk.js"
+    "revision": "911af9befe9286232eaa",
+    "url": "/BDD-Challenge_client/static/js/2.2f10f7cc.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/BDD-Challenge_client/static/js/2.2355c608.chunk.js.LICENSE.txt"
+    "url": "/BDD-Challenge_client/static/js/2.2f10f7cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "77b4ff5f3f3b5893f710",
-    "url": "/BDD-Challenge_client/static/js/main.e2d8c5d1.chunk.js"
+    "revision": "fa2508815948fbea1857",
+    "url": "/BDD-Challenge_client/static/js/main.cb700516.chunk.js"
   },
   {
     "revision": "d50b761f378c164b5231",
