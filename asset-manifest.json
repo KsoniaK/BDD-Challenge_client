@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/BDD-Challenge_client/static/css/main.2934dbcf.chunk.css",
-    "main.js": "/BDD-Challenge_client/static/js/main.e8d91552.chunk.js",
-    "main.js.map": "/BDD-Challenge_client/static/js/main.e8d91552.chunk.js.map",
+    "main.js": "/BDD-Challenge_client/static/js/main.e2d8c5d1.chunk.js",
+    "main.js.map": "/BDD-Challenge_client/static/js/main.e2d8c5d1.chunk.js.map",
     "runtime-main.js": "/BDD-Challenge_client/static/js/runtime-main.f1398ca6.js",
     "runtime-main.js.map": "/BDD-Challenge_client/static/js/runtime-main.f1398ca6.js.map",
-    "static/js/2.c96f46b1.chunk.js": "/BDD-Challenge_client/static/js/2.c96f46b1.chunk.js",
-    "static/js/2.c96f46b1.chunk.js.map": "/BDD-Challenge_client/static/js/2.c96f46b1.chunk.js.map",
+    "static/js/2.2355c608.chunk.js": "/BDD-Challenge_client/static/js/2.2355c608.chunk.js",
+    "static/js/2.2355c608.chunk.js.map": "/BDD-Challenge_client/static/js/2.2355c608.chunk.js.map",
     "index.html": "/BDD-Challenge_client/index.html",
-    "precache-manifest.e47f411fa603d175024138a019b69d40.js": "/BDD-Challenge_client/precache-manifest.e47f411fa603d175024138a019b69d40.js",
+    "precache-manifest.d5d22f55624e57cd27712a29039be5f5.js": "/BDD-Challenge_client/precache-manifest.d5d22f55624e57cd27712a29039be5f5.js",
     "service-worker.js": "/BDD-Challenge_client/service-worker.js",
     "static/css/main.2934dbcf.chunk.css.map": "/BDD-Challenge_client/static/css/main.2934dbcf.chunk.css.map",
-    "static/js/2.c96f46b1.chunk.js.LICENSE.txt": "/BDD-Challenge_client/static/js/2.c96f46b1.chunk.js.LICENSE.txt"
+    "static/js/2.2355c608.chunk.js.LICENSE.txt": "/BDD-Challenge_client/static/js/2.2355c608.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f1398ca6.js",
-    "static/js/2.c96f46b1.chunk.js",
+    "static/js/2.2355c608.chunk.js",
     "static/css/main.2934dbcf.chunk.css",
-    "static/js/main.e8d91552.chunk.js"
+    "static/js/main.e2d8c5d1.chunk.js"
   ]
 }
