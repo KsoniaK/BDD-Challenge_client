@@ -1,4 +1,14 @@
-Lien Projet : https://ksoniak.github.io/BDD-Challenge_client/
+# Coding challenge : Intéragir avec une base de données
 
-Git Serveur : https://github.com/KsoniaK/BDD-Challenge_server.git
-Git Client + Serveur : https://github.com/KsoniaK/BDD-Challenge.git
+Initiation à la création d'une base de données (MySQL via phpMyAdmin)
+
+## Technologies
+
+- JS
+- React
+- Node
+- CSS
+
+## GitHub Pages
+
+https://ksoniak.github.io/BDD-Challenge_client/
