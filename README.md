@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="src/img/strangerthings.jpg" alt="Logo Game On" width="100">
+</p>
+
 # Coding challenge : Intéragir avec une base de données
 
 Initiation à la création d'une base de données (MySQL via phpMyAdmin)
